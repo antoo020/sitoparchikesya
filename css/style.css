@@ -1,0 +1,1456 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .contenitore {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  nav a.active {
+    color: #8BA28E;
+    font-weight: bold;
+  }
+  .home-main {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .main-att {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .etna-main {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .parchi-main {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .sila-main {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .immagine {
+   width: 100%;
+  height: auto;
+   display: block;
+  }
+  header {
+    max-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px 20px 0;
+  }
+  
+  .italia {
+    font-weight: bold;
+    color: #0E2210;
+    text-decoration: none;
+  }
+  .italia p:hover {
+    color: #8BA28E;
+      text-decoration: underline;
+  }
+  header nav ul {
+      list-style: none;
+      display: flex;
+      gap: 60px;
+      font-weight: medium;
+  }
+  header nav a {
+    text-decoration: none;
+    color: #0E2210;
+    font-size: 10pt;
+  }
+  header nav a:hover {
+    color: #8BA28E;
+    text-decoration: underline;
+  }
+  .home-main h1 {
+    font-size: 35pt;
+  color: white;
+  padding-left: 40px;
+  margin-top: -120px ;
+  }
+  .bio {
+    color: white;
+    padding-left: 40px;
+    margin-top: -20px;
+    font-size: 12pt;
+    
+  }
+  .home-main h3 {
+    color: #0E2210;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 25px;
+  }
+  p {
+    color: #0E2210;
+   padding-left: 40px;
+   font-size: 12pt;
+   line-height: 1.6;
+  }
+  .foto {
+    display: flex;
+    justify-content: space-between;
+   padding: 40px;
+   gap: 2vw; 
+  }
+  .foto img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  transition: filter 0.3s ease;
+  }
+  .foto img:hover {
+    filter: brightness(0.5);
+  }
+  .foto a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .foto nav h5 {
+    color: #0E2210;
+    font-size: 10pt;
+    text-align: center;
+  }
+  .foto nav h5:hover {
+    color: #8BA28E;
+    text-decoration: underline;
+  }
+  .custom-line {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    height: 1pt;
+    border: none;
+    background-color: #0E2210;
+  }
+  .atti {
+    display: flex;
+    align-items: center;
+    padding-left: 40px ;
+    max-width: 1200px;
+  }
+  .atti-img {
+    max-width: 100%;
+    width: 650px;
+    height: auto;
+    transition: filter 0.3s ease;
+  }
+  .atti-img:hover {
+    filter: brightness(0.7);
+  }
+  .atti-text {
+    max-width: 40%;
+  }
+  .atti-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .atti-link:hover h2 {
+    color: #8BA28E;
+    text-decoration: underline;
+  }
+  
+  .atti-text h2 {
+    padding-left: 40px;
+    font-size: 25px;
+  }
+  
+  .atti-text p {
+  max-width: 90%;
+  
+  }
+  .section {
+    padding-bottom: 80px;
+  }
+  footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E2210;
+    font-size: 12px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 16px;
+    padding-left: 45px;
+   
+  }
+  footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    padding-right: 40px;
+  }
+  
+  footer nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer nav ul li a:hover {
+    color: #8BA28E;
+    text-decoration: underline;
+  }
+  .main-att h1 {
+    font-size: 35pt;
+  color: white;
+  padding-left: 40px;
+  margin-top: -120px ;
+  }
+  .des p {
+    padding-top: 65px;
+   padding-left: 40px;
+   padding-bottom: 40px;
+   line-height: 1.6;
+  }
+  .fotopa {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 30px;
+    max-width: 1200px;
+    padding-left: 40px;
+    align-items: center;
+    
+  }
+  .foto-att {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  .foto-att img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+  }
+  .paragrafo p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .main-att h3 {
+    padding-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    color: #0E2210;
+  }
+  .uno-att h4 {
+    padding-left: 40px;
+    color: #0E2210;
+  }
+  .uno-att ul li {
+    color: #0E2210;
+    margin-left: 550px;
+    margin-top: -35px;
+    margin-bottom: 60px;
+    line-height: 1.6;
+  }
+  .due-att h4 {
+    margin-left: 40px;
+    color: #0E2210;
+  }
+  .due-att ul li {
+    color: #0E2210;
+    margin-left: 550px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    line-height: 1.6;
+  }
+  .tre-att h4 {
+    margin-left: 40px;
+    color: #0E2210;
+  }
+  .tre-att ul li {
+    color: #0E2210;
+    margin-left: 550px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    line-height: 1.6;
+  }
+  .quattro-att h4 {
+    margin-left: 40px;
+    color: #0E2210;
+  }
+  .quattro-att ul li {
+    color: #0E2210;
+    margin-left: 550px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    line-height: 1.6;
+  }
+  .cinque-att h4 {
+    margin-left: 40px;
+    color: #0E2210;
+  }
+  .cinque-att ul li {
+    color: #0E2210;
+    margin-left: 550px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    line-height: 1.6;
+  }
+  .tit-parchi h1 {
+    font-size: 35pt;
+  color: white;
+  padding-left: 40px;
+  margin-top: -120px ;
+  }
+  .tit-parchi p {
+    padding-top: 60px;
+  }
+  .otto-parchi {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    padding-left: 60px;
+  }
+  .otto-parchi h5 {
+    width: 200px;
+    text-align: center;
+  }
+  .tit-etna h1 {
+    font-size: 35pt;
+  color: white;
+  padding-left: 40px;
+  margin-top: -120px ;
+  
+  }
+  .tit-etna p {
+    color: white;
+    padding-left: 40px;
+    margin-top: -30px;
+    font-size: 12pt;
+    padding-bottom: 80px;
+  }
+  .etnapa {
+    width: 800px;
+  }
+  .uno-etna {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .uno-etna h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .uno-etna p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .uno-etna img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .due-etna {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .due-etna h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .due-etna p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .due-etna img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  .tre-etna {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .tre-etna h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .tre-etna p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .tre-etna img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  .quattro-etna {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .quattro-etna h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .quattro-etna p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    padding-bottom: 60px;
+  }
+  
+  
+  .tit-sila h1 {
+    font-size: 35pt;
+    margin-top: -120px;
+    margin-left: 40px;
+    color: white;
+  }
+  .tit-sila p {
+    color: white;
+    padding-left: 40px ;
+    margin-top: -22px;
+    margin-bottom: 100px;
+  }
+  .silapa {
+    width: 800px;
+  }
+  .uno-sila {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .uno-sila h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .uno-sila p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .uno-sila img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .due-sila {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .due-sila h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .due-sila p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .due-sila img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  .tre-sila {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .tre-sila h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .tre-sila p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .tre-sila img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  .quattro-sila {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .quattro-sila h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .quattro-sila p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    padding-bottom: 60px;
+  }
+  
+  .tit-tosca h1 {
+    font-size: 35pt;
+    margin-top: -120px;
+    margin-left: 40px;
+    color: white;
+  }
+  .tit-tosca p {
+    color: white;
+    padding-left: 40px ;
+    margin-top: -22px;
+    margin-bottom: 100px;
+  }
+  .toscapa {
+    width: 800px;
+  }
+  .uno-tosca {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .uno-tosca h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .uno-tosca p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .uno-tosca img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .due-tosca {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .due-tosca h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .due-tosca p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .due-tosca img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  .tre-tosca {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .tre-tosca h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .tre-tosca p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .tre-tosca img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .quattro-tosca {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .quattro-tosca h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .quattro-tosca p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    padding-bottom: 60px;
+  }
+  .tit-ve h1 {
+    font-size: 35pt;
+    margin-top: -120px;
+    margin-left: 40px;
+    color: white;
+  }
+  .tit-ve p {
+    color: white;
+    padding-left:  40px ;
+    margin-top: -22px;
+    margin-bottom: 100px;
+  }
+  .vepa {
+    width: 800px;
+  }
+  .uno-ve {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .uno-ve h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .uno-ve p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .uno-ve img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .due-ve {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .due-ve h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .due-ve p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .due-ve img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  .tre-ve {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .tre-ve h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .tre-ve p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    
+  }
+  
+  .tre-ve img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  .quattro-ve {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    margin-right: 30px;
+  }
+  
+  .quattro-ve h4 {
+    color: #0E2210;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .quattro-ve p {
+    color: #0E2210;
+    flex: 2;
+    text-align: left; 
+    text-align-last: left; 
+    padding-bottom: 60px;
+  }
+  
+  @media (max-width:768px) {
+  
+    .home-main h1 {
+      font-size: 25pt;
+   
+    }
+    .bio {
+    
+      font-size: 12pt;
+      
+    }
+    .home-main h3 {
+  
+      padding-top: 60px;
+      font-size: 14pt;
+    }
+    p {
+   
+     font-size: 12pt;
+    
+    }
+  .foto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+    .foto nav h5 {
+      font-size: 8pt;
+    
+    }
+  .atti img {
+    width: 500px;
+    margin-left: -5px;
+  }
+  .atti {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 500px;
+  }
+    
+    .atti-text h2 {
+      padding-left: 0;
+      font-size: 14pt;
+      margin-left: -150px;
+    }
+    
+    .atti-text p {
+    font-size: 12pt;
+    max-width: none;
+    width: 400px;
+    margin-left: -190px;
+    padding-bottom: 15px;
+    }
+    .otto-parchi {
+      padding-right: 20px;
+      padding-left: 50px;
+      padding-bottom: 30px;
+    }
+    .otto-parchi img {
+      width: 200px;
+      height: auto;
+      
+    }
+    .otto-parchi h5 {
+      font-size: 8pt;
+     width: 200px;
+   
+    }
+    .tit-parchi h1 {
+      font-size: 25pt;
+    }
+    .tit-parchi p {
+      padding-top: 100px;
+    }
+    .main-att h1 {
+      font-size: 25pt;
+    
+    }
+    .des p {
+      padding-top: 100px;
+      margin: auto;
+    }
+  .fotopa {
+    display: flex;
+    flex-direction: column;
+  }
+  
+    .paragrafo p {
+      padding-right: 60px;
+      padding-top: 40px;
+      line-height: 1.6;
+      font-size: 12pt;
+  
+      
+    }
+    .aa {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding-left: 40px;
+     
+    }
+    .uno-att ul li {
+      padding-top: 20px;
+     margin: auto;
+     text-align: left;
+     font-size: 12pt;
+     padding-bottom: 60px;
+    }
+    
+    .due-att ul li {
+      margin: auto;
+      text-align: left;
+      font-size: 12pt;
+      padding-bottom: 60px;
+    }
+   
+    .tre-att ul li {
+      margin: auto;
+     text-align: left;
+     font-size: 12pt;
+     padding-bottom: 60px;
+    }
+   
+    .quattro-att ul li {
+      margin: auto;
+     text-align: left;
+     font-size: 12pt;
+     padding-bottom: 60px;
+    }
+   
+    .cinque-att ul li {
+      margin: auto;
+     text-align: left;
+     font-size: 12pt;
+     padding-bottom: 60px;
+    }
+    .tit-etna h1 {
+      font-size: 25pt;
+    
+    }
+    .tit-etna p {
+      color: white;
+      padding-left: 40px;
+      margin-top: -10px;
+      font-size: 8pt;
+      padding-bottom: 80px;
+    }
+    .etnapa {
+      font-size: 10pt;
+      width: 500px;
+    }
+    .tit-sila h1 {
+      font-size: 25pt;
+    
+    }
+    .tit-sila p {
+      color: white;
+      padding-left: 40px;
+      margin-top: -10px;
+      font-size: 8pt;
+      padding-bottom: 80px;
+    }
+    .silapa {
+      font-size: 10pt;
+      width: 500px;
+      margin-top: -80px;
+    }
+    .tit-tosca h1 {
+      font-size: 25pt;
+      width: 400px;
+    
+    }
+    .tit-tosca p {
+      color: white;
+      padding-left: 40px;
+      margin-top: -20px;
+      font-size: 8pt;
+      padding-bottom: 80px;
+    }
+    .toscapa {
+      font-size: 10pt;
+      width: 500px;
+      margin-top: -80px;
+    }
+    .tit-ve h1 {
+      font-size: 25pt;
+    
+    }
+    .tit-ve p {
+      color: white;
+      padding-left: 40px;
+      margin-top: -10px;
+      font-size: 8pt;
+      padding-bottom: 80px;
+    }
+    .vepa {
+      font-size: 10pt;
+      width: 500px;
+      margin-top: -80px;
+    }
+    .uno-etna {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .uno-etna h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .uno-etna p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .uno-etna img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .due-etna {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .due-etna h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .due-etna p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .due-etna img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .tre-etna {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .tre-etna h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .tre-etna p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .tre-etna img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .quattro-etna {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .quattro-etna h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .quattro-etna p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+   
+    .uno-sila {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .uno-sila h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .uno-sila p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .uno-sila img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .due-sila {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .due-sila h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .due-sila p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .due-sila img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .tre-sila {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .tre-sila h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .tre-sila p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .tre-sila img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .quattro-sila {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .quattro-sila h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .quattro-sila p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+   
+    .uno-tosca {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .uno-tosca h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .uno-tosca p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .uno-tosca img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .due-tosca {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .due-tosca h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .due-tosca p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .due-tosca img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .tre-tosca {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .tre-tosca h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .tre-tosca p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .tre-tosca img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .quattro-tosca {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .quattro-tosca h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .quattro-tosca p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    .uno-ve {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .uno-ve h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .uno-ve p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .uno-ve img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .due-ve {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .due-ve h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .due-ve p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .due-ve img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .tre-ve {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .tre-ve h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .tre-ve p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    }
+    
+    .tre-ve img {
+     width: 200px;
+     padding-top: 20px;
+      height: auto;
+      margin: auto;
+      object-fit: cover; 
+    }
+    .quattro-ve {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .quattro-ve h4 {
+      color: #0E2210;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 20px;
+      font-size: 12pt;
+    }
+    
+    .quattro-ve p {
+    color: #0E2210;
+    font-size: 10pt;
+    margin: 0;
+    width: 500px;
+    text-align: left;
+    padding-bottom: 60px;
+    }
+  }
+  
+  
